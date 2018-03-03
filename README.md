@@ -19,11 +19,17 @@ Test scenario:
 3. Compare downloaded images and metadata from API. Test fails in case if any difference.
 Please use standard technologies, tools and frameworks which you are usually use in test frameworks creation.
 As a plus:
-Using NASA’s API determine how many pictures were made by each camera (by Curiosity on 1000 sol.). If any camera made 10 times more images than any other - test fails.
+Using NASA’s API determine how many pictures were made by each camera (by Curiosity on 1000 sol.). If any
+camera made 10 times more images than any other - test fails.
 
+Please be aware that build would fail by default - because of camera's photos comparison test failure.
 -----------------
 How to run tests
 -----------------
 To be able to proceed with test executions followed steps should be done:
 
 1. Run mvn clean test from within project home folder.
+
+-----------------
+Note
+-----------------
