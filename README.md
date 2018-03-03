@@ -23,6 +23,7 @@ Using NASA’s API determine how many pictures were made by each camera (by Curi
 camera made 10 times more images than any other - test fails.
 
 Please be aware that build would fail by default - because of camera's photos comparison test failure.
+
 -----------------
 How to run tests
 -----------------
